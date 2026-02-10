@@ -1,5 +1,34 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: green;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background:white;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+#cardabajo{
+transform: rotate(180deg);
+}
+
+#cardcenter{
+ 
+    display:flex;
+    justify-content: center;
+
+}
+
+.card > div {
+    font-size: 5rem;
+    padding: 0px 10px;
 }
